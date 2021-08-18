@@ -1,0 +1,54 @@
+<!--
+	units:
+	1-Absolute units:px(independent of other element sizes/screen size)
+	2-relative units:%
+		->em
+		->rem
+		->vw(viewport width)
+		->vh(viewport height)
+	-units
+	-dependencies
+	-uses
+	@media queries
+	test:task/time duration	
+-->
+<!DOCTYPE html>
+<html>
+<head>
+	<style type="text/css">
+	body{
+		margin: 0px;
+		padding: 0px;
+	}
+	p{
+		font-size: 4rem;
+	}
+		#absolute{
+			width: 800px;
+			height: 400px;
+			background-color: deepskyblue;
+		}
+		#relative{
+			width: 80vw;/*70 perc of the screen size*/
+			height: 400px;
+			background-color: deeppink;
+		}
+		#rel{
+			width: 70%;
+			height: 400px;
+			background-color: purple;
+		}
+	</style>
+	<meta charset="utf-8">
+	<title></title>
+</head>
+<body>
+	<div id="absolute">
+		<p>Hi Utkarsh</p>
+	</div>
+	<div id="relative">
+		<div id="rel"></div>
+	</div>
+
+</body>
+</html>
