@@ -16,39 +16,36 @@
 <html>
 <head>
 	<style type="text/css">
+	html{
+		font-size: 10px;
+	}
 	body{
 		margin: 0px;
 		padding: 0px;
+		font-size: 40px;/* = 1em */
 	}
-	p{
+	#rel{
+		width: 700px;
+		height: 100vh ;
+		background-color: greenyellow;
+	}
+	#relb{
+		width: 70%;
+		height: 300px;
+		background-color: darkkhaki;
+	}
+	#para{
 		font-size: 4rem;
 	}
-		#absolute{
-			width: 800px;
-			height: 400px;
-			background-color: deepskyblue;
-		}
-		#relative{
-			width: 80vw;/*70 perc of the screen size*/
-			height: 400px;
-			background-color: deeppink;
-		}
-		#rel{
-			width: 70%;
-			height: 400px;
-			background-color: purple;
-		}
+	
 	</style>
 	<meta charset="utf-8">
 	<title></title>
 </head>
 <body>
-	<div id="absolute">
-		<p>Hi Utkarsh</p>
+	<div id="rel">
+		<p id="para">Hello Utkarsh</p>
 	</div>
-	<div id="relative">
-		<div id="rel"></div>
-	</div>
-
+	
 </body>
 </html>
