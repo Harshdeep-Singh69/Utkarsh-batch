@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<style type="text/css">
+		#aa{
+			width: 1200px;
+			height: 400px;
+			background-color: khaki;
+			margin: auto;
+			border: 12px solid black;
+		}
+		#para{
+			font-size: 120px;
+		}
+		#image{
+			width: 800px;
+			height: 400px;
+		}
+
+		@media screen and (max-width: 1200px){
+			#aa{
+				width: 900px;
+				background-color: deeppink;
+				border: 10px solid darkmagenta;
+			}
+			#para{
+				font-size: 80px;
+			}
+		}
+		@media screen and (max-width: 900px){
+			#aa{
+				width: 600px;
+				height: 250px;
+				background-color: wheat;
+				border: 8px solid green;
+			}
+			#para{
+				font-size: 40px;
+			}
+			#image{
+				width: 400px;
+				height: 250px;
+			}
+		}
+		@media screen and (max-width: 600px){
+			#aa{
+				width: 400px;
+				height: 150px;
+				background-color: deepskyblue;
+				border: 6px solid blue;
+			}
+			#para{
+				font-size: 20px;
+			}
+		}
+
+	</style>
+	<meta charset="utf-8">
+	<title></title>
+</head>
+<body>
+	<div id="aa">
+		<p id="para">Hello Utkarsh How are you</p>
+	</div>
+	<img id="image" src="bgimg.jfif">
+
+</body>
+</html>
